@@ -1,0 +1,8 @@
+DEVICE=enp0s25
+BOOTPROTO=none
+
+UUID=adafadc3-5986-4fa6-971e-247cdff76701
+BRIDGE=br0
+ONBOOT=yes
+TYPE=Ethernet
+NAME="System enp0s25"
