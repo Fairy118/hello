@@ -1,0 +1,18 @@
+# Bridge Networking Interface
+DEVICE=br0
+NAME="Bridge enp0s25"
+ONBOOT=yes
+BOOTPROTO=none
+IPADDR0=172.25.254.32
+PREFIX0=24
+DEFROUTE=yes
+IPADDR1=172.25.32.250
+PREFIX1=24
+DNS1=172.25.254.250
+DOMAIN="ilt.example.com example.com"
+IPV6INIT=no
+PEERNTP=no
+PEERDNS=yes
+TYPE=Bridge
+DELAY=0
+STP=no
